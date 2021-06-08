@@ -1570,7 +1570,7 @@
     "@types/yargs" "^15.0.0"
     chalk "^4.0.0"
 
-"@material-ui/core@^5.0.0-alpha.35":
+"@material-ui/core@^5.0.0-alpha.36":
   version "5.0.0-alpha.36"
   resolved "https://registry.yarnpkg.com/@material-ui/core/-/core-5.0.0-alpha.36.tgz#88031664ced5ac7173aee4388c323fa52a339598"
   integrity sha512-14i+hgsycPIGPbBAz+g98gMnxQ5RTMhsqmsG3JgjFJckF5DhzZVFVVhax5N946mp8NUfcAvAUyCze7PvRKdvBg==
@@ -1591,7 +1591,7 @@
     react-is "^17.0.0"
     react-transition-group "^4.4.0"
 
-"@material-ui/icons@^5.0.0-alpha.35":
+"@material-ui/icons@^5.0.0-alpha.36":
   version "5.0.0-alpha.36"
   resolved "https://registry.yarnpkg.com/@material-ui/icons/-/icons-5.0.0-alpha.36.tgz#8bc72df8d794875237699c31ce8656c3955bac43"
   integrity sha512-0nd1MTmgTyx+9lFV1PusbA7/Ow19aL83wsEIpHeAsT5q9Vuz7uS5erwV4YK7vzUj3Dinc5ggx7Wpjtv+2qJCnQ==
