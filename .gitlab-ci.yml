@@ -5,7 +5,7 @@ default:
   interruptible: true
 
 stages:
-  - deploy
+  - build
 
 cache:
   key: ${CI_COMMIT_REF_SLUG}
