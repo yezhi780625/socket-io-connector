@@ -1,6 +1,6 @@
 {
   "name": "chat-client",
-  "homepage": "",
+  "homepage": "https://socket-io-connector.netlify.app/",
   "private": true,
   "dependencies": {
     "@emotion/css": "^11.1.3",
