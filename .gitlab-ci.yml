@@ -1,0 +1,29 @@
+default:
+  image: dkhub.deltaww.com/node:14
+  tags:
+    - node14
+  interruptible: true
+
+stages:
+  - deploy
+
+cache:
+  key: ${CI_COMMIT_REF_SLUG}
+  paths:
+    - node_modules/
+
+before_script:
+  - yarn config set strict-ssl ""
+  - yarn
+
+pages:
+  stage: build
+  environment:
+    name: pages
+  script:
+    - yarn build
+    - mv build public
+    - cp public/index.html public/404.html
+  artifacts:
+    paths:
+      - public
