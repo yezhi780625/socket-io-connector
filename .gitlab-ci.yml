@@ -1,7 +1,5 @@
 default:
-  image: dkhub.deltaww.com/node:14
-  tags:
-    - node14
+  image: node:14
   interruptible: true
 
 stages:
